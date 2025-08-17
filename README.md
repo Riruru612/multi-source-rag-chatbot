@@ -33,12 +33,11 @@ If answers are not found in the documents, the bot fetches answers via **Google 
 git clone https://github.com/Riruru612/multi-source-rag-chatbot.git
 
 # 2️⃣ Navigate into the project
-cd <your-repo>
+cd multi-source-rag-chatbot
 
 # 3️⃣ Create a virtual environment & activate it
-python -m venv venv
-source venv/bin/activate  # (Mac/Linux)
-venv\Scripts\activate     # (Windows)
+conda create -n venv python=3.10
+conda activate venv
 
 # 4️⃣ Install dependencies
 pip install -r requirements.txt
