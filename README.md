@@ -30,7 +30,7 @@ If answers are not found in the documents, the bot fetches answers via **Google 
 
 ```bash
 # 1️⃣ Clone the repo
-git clone https://github.com/<your-username>/<your-repo>.git
+git clone https://github.com/Riruru612/multi-source-rag-chatbot.git
 
 # 2️⃣ Navigate into the project
 cd <your-repo>
