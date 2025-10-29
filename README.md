@@ -1,4 +1,4 @@
-# 🚀 Conversational RAG Chatbot  
+#  Conversational RAG Chatbot  
 
 An intelligent chatbot built with **LangChain**, **FAISS Vectorstore**, and **Streamlit**, deployed on **Render**.  
 This chatbot allows users to upload documents (PDF, text, or URLs) and ask questions about them.  
@@ -6,12 +6,12 @@ If answers are not found in the documents, the bot fetches answers via **Google 
 
 ---
 
-## ✨ Features  
-✅ Upload multiple documents (PDF, DOCX, TXT, URLs)  
-✅ Ask questions and get document-based answers  
-✅ Falls back to **Google Search** when not found  
-✅ Built using **LangChain + FAISS + HuggingFace models**  
-✅ Deployed on **Render**  
+## Features  
+Upload multiple documents (PDF, DOCX, TXT, URLs)  
+Ask questions and get document-based answers  
+Falls back to **Google Search** when not found  
+Built using **LangChain + FAISS + HuggingFace models**  
+Deployed on **Render**  
 
 ---
 
@@ -19,35 +19,35 @@ If answers are not found in the documents, the bot fetches answers via **Google 
 
 | **Component** | **Technology** |
 |---------------|----------------|
-| Frontend      | Streamlit 🎨   |
-| Backend       | Flask / LangChain ⚙️ |
-| Database      | FAISS Vectorstore 📂 |
-| Deployment    | Render 🚀      |
+| Frontend      | Streamlit   |
+| Backend       | LangChain |
+| Database      | FAISS Vectorstore |
+| Deployment    | Render      |
 
 ---
 
-## ⚡ Installation  
+##  Installation  
 
 ```bash
-# 1️⃣ Clone the repo
+# 1️Clone the repo
 git clone https://github.com/Riruru612/multi-source-rag-chatbot.git
 
-# 2️⃣ Navigate into the project
+# 2️Navigate into the project
 cd multi-source-rag-chatbot
 
-# 3️⃣ Create a virtual environment & activate it
+# 3️ Create a virtual environment & activate it
 conda create -n venv python=3.10
 conda activate venv
 
-# 4️⃣ Install dependencies
+# 4️Install dependencies
 pip install -r requirements.txt
 
-# 5️⃣ Run the app
+# 5️Run the app
 streamlit run app.py
 
-📂 Project Structure
+ Project Structure
 
-📦 project-root
+ project-root
 ├── app.py                # Main Streamlit app
 ├── requirements.txt      # Dependencies
 ├── README.md             # Project documentation
