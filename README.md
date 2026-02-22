@@ -1,4 +1,4 @@
-# Hybrid Confidence-Based RAG Chatbot
+# Confidence-Driven Multi-Agent RAG System with Tool Orchestration and Evaluation Layer
 
 **A production-style Retrieval-Augmented Generation (RAG) system built using LangChain, FAISS, SentenceTransformers, and Streamlit.**
 
